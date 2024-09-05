@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+}
+
+/* Input and Textarea */
+input, textarea {
+  border-radius: 5px;
+}
+
+/* Transitions and Animations */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+.bg-gray-900 {
+  background-color: #1a202c;
+}
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+.bg-gray-200 {
+  background-color: #edf2f7;
+}
+
+/* Sidebar */
+.hidden {
+  display: none;
+}
+
+/* Buttons */
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #4a90e2, #007aff);
+}
+.bg-gradient-to-r:hover {
+  background-image: linear-gradient(to right, #007aff, #4a90e2);
+}
+
+/* Note List */
+.list-none {
+  list-style-type: none;
+}
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.shadow-xl {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
